@@ -1,0 +1,9 @@
+{
+  "title": "Alinhamento Zuado",
+  "id": "AlinhamentoZuado",
+  "version": "0.0.1",
+  "tags": ["br", "pt-br", "D&D"],
+  "authors": ["Jerry"],
+  "description": "test.",
+  "out": "build"
+}

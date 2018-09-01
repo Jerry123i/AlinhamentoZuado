@@ -1,0 +1,10 @@
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\bin\Debug\AlinhamentoZuado.exe.config
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\bin\Debug\AlinhamentoZuado.exe
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\bin\Debug\AlinhamentoZuado.pdb
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\bin\Debug\Rant.dll
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\bin\Debug\Rant.xml
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\obj\Debug\AlinhamentoZuado.csprojAssemblyReference.cache
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\obj\Debug\AlinhamentoZuado.csproj.CoreCompileInputs.cache
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\obj\Debug\AlinhamentoZuado.csproj.CopyComplete
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\obj\Debug\AlinhamentoZuado.exe
+C:\Users\Igor\Documents\AlinhamentoZuado\AlinhamentoZuado\obj\Debug\AlinhamentoZuado.pdb

@@ -1,0 +1,102 @@
+
+### Alinhamentos
+
+[$
+[AlinhamentoMoral:gen]:
+
+	[if:[eq:[arg:gen];m];
+		{mau|neutro|bom}
+	]
+	[if:[eq:[arg:gen];f];
+		{má|neutra|boa}
+	]
+	[if:[eq:[arg:gen];pl];
+		{maus|neutros|bons}
+	]
+	
+]
+
+[$
+[AlinhamentoLegal:gen]:
+	
+	[if:[eq:[arg:gen];m];
+		{leal|neutro|caótico}
+	]
+	[if:[eq:[arg:gen];f];
+		{leal|neutra|caótica}
+	]
+	[if:[eq:[arg:gen];pl];
+		{leais|neutros|bons}
+	]
+]
+
+[$
+[AlinhamentoZuado:gen]:	
+
+	[if:[eq:[arg:gen];m];
+		{
+			[$AlinhamentoLegal:[arg:gen]] e <adjetivo.m>
+			|<adjetivo.m> e [$AlinhamentoMoral:[arg:gen]]
+		}
+	]
+	
+	[if:[eq:[arg:gen];f];
+		{
+			[$AlinhamentoLegal:[arg:gen]] e <adjetivo.f>
+			|<adjetivo.f> e [$AlinhamentoMoral:[arg:gen]]
+		}
+	]
+	
+	[if:[eq:[arg:gen];pl];
+		{
+			[$AlinhamentoLegal:[arg:gen]] e <adjetivo.pl>
+			|<adjetivo.pl> e [$AlinhamentoMoral:[arg:gen]]
+		}
+	]
+
+]
+
+### Outros
+
+[$
+[Personagem:gen]:
+
+	[if:[eq:[arg:gen];m];
+		{
+			<raça.m> <classe.m> [$AlinhamentoZuado:m]
+		}
+	]
+	
+	[if:[eq:[arg:gen];f];
+		{
+			<raça.f> <classe.f> [$AlinhamentoZuado:f]
+		}
+	]
+
+]
+
+{
+	Minha última aventura não durou muito por que todos os jogadores eram [$AlinhamentoZuado:pl] 
+	|O vilão final da aventura era um {vampiro|lich} <adjetivo.m> e mau
+	|A party consiste de 4 personagens [$AlinhamentoZuado:pl] e {uma <classe.f> [$AlinhamentoZuado:f] |um <classe.m> [$AlinhamentoZuado:m] }
+	|Não é culpa minha se minha classe me obriga a ser [$AlinhamentoZuado:{m|f}] 
+	|Paladinos dessa divindade específica são sempre leais e <adjetivo.pl> 
+	|A party consiste de 5 <classe.pl> [$AlinhamentoZuado:pl] 
+	|O poder do amuleto é mudar o alinhamento da pessoa para [$AlinhamentoZuado:m]
+	|{Meu mestre joga com|Eu jogo com|Esse continente {usa|tem}|Esse cenário {usa|tem}|Lançaram|Meu cenário {tem|usa}} uma variante de {elfos|orcs|vampiros|gnomos|dragões|fadas} em que todos são [$AlinhamentoZuado:pl]
+	|Meu familiar vem do plano astral [$AlinhamentoZuado:m]
+	|(1.5){Rolando|Se esse morrer eu faço|Meu último personagem foi} {um <raça.m> <classe.m> [$AlinhamentoZuado:m]|uma <raça.f> <classe.f> [$AlinhamentoZuado:f]}
+	|O personagem começou {caótico|neutro|leal} e {bom|mau}, mas no final da campanha terminou [$AlinhamentoZuado:m]
+	|A esfinge olha no fundo da sua alma e só permite que os [$AlinhamentoZuado:pl] passem
+	|Item Épico: {Espada|Cetro|Arco|Machado} consciente \n Alinhamento: [$AlinhamentoZuado:m]
+	|O time é um [$Personagem:m], um [$Personagem:m] e uma [$Personagem:f]	
+}
+
+
+\n
+-----
+
+
+
+
+
